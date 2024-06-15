@@ -1,0 +1,21 @@
+grpcio 
+grpcio-tools
+numpy 
+soundfile
+ipykernel
+python-dotenv
+langchain
+langchain-nvidia-ai-endpoints
+langchain-community
+# google-cloud-speech
+# langchain-google-community
+nvidia-riva-client
+protobuf==3.20.1
+pywav
+sounddevice
+pyaudio
+wikipedia
+wikipedia-api
+pydub
+scipy
+ffmpeg
