@@ -1,6 +1,6 @@
-grpcio 
+grpcio==1.51.3
 grpcio-tools
-numpy 
+numpy==1.22.4
 soundfile
 ipykernel
 python-dotenv
@@ -10,12 +10,12 @@ langchain-community
 # google-cloud-speech
 # langchain-google-community
 nvidia-riva-client
-protobuf==3.20.1
+protobuf==3.17.3
 pywav
-sounddevice
+sounddevice==0.4.2
 pyaudio
 wikipedia
 wikipedia-api
 pydub
-scipy
+scipy==1.8.1
 ffmpeg
