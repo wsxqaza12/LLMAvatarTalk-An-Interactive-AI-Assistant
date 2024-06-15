@@ -1,6 +1,6 @@
 # LLMAvatarTalk
 
-LLMAvatarTalk 是一個結合了語音識別、大型語言模型（LLM）、文字到語音（TTS）和音頻驅動的面部動畫（Audio2Face）技術的創新解決方案。展示了如何通過整合多種 AI 技術來實現一個交互式的虛擬助理。
+LLMAvatarTalk 是一個結合了語音識別(ASR)、大型語言模型(LLM)、文字到語音(TTS)和音頻驅動的面部動畫(Audio2Face)技術的創新解決專案，展示了如何通過整合多種 AI 技術來實現一個交互式的虛擬助理。
 
 ## 功能特色
 
@@ -27,10 +27,15 @@ LLMAvatarTalk 是一個結合了語音識別、大型語言模型（LLM）、文
 
 ## 運行
 1. 確定你已經架設好 Riva 伺服器並設定好 Audio2Face 與 Unreal Engine
-2. 將 Riva 伺服器的 IP:PORT 填入 config.py 中的 URI，一般Riva 伺服器的 PORT 為 "50051"。
+2. 創建 .env 並輸入 NVIDIA NIMs API KEY，你可以在 .env.sample 找到範例
+   ```plaintext
+   NVIDIA_API_KEY=nvapi-
+   ```
+4. 將 Riva 伺服器的 IP:PORT 填入 config.py 中的 URI，一般Riva 伺服器的 PORT 為 "50051"。
    ```plaintext
    URI = '192.168.1.205:50051'
    ```
-3. 執行 `python main.py`
+5. 執行 `python main.py`
 
 ## 架構
+<img src = "https://github.com/wsxqaza12/LLMAvatarTalk-NVIDIA-RIVA-Audio2Face-Langchain/blob/main/png/architecture%20diagram.png" width ="700" />
