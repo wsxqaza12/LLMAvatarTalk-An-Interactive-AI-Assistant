@@ -3,8 +3,11 @@ import riva.client
 import riva.client.audio_io
 import numpy as np
 from config import URI
-from config import LANGUAGE
-from config import VOICE
+from config import voice_config
+from config import user_language_choice
+
+LANGUAGE = user_language_choice
+VOICE = voice_config.get(user_language_choice)
 
 
 class TTSService:
