@@ -49,7 +49,15 @@ pip install -r requirements.txt
    ```
 5. 執行 `python main.py`
 
+## 代辦事項
+- [ ] LLM 功能優化，如加入 RAG 與 Agent
+- [ ] TTS 優化
+- [ ] 偵測情感和全身動畫
+- [ ] 異步處理
+
+
 ## 致謝
 感謝以下專案與文件：
+- [NVIDIA CLI Install](https://org.ngc.nvidia.com/setup/installers/cli)
 - [Omniverse-Virtual-Assisstant](https://github.com/zslrmhb/Omniverse-Virtual-Assisstant)
 
