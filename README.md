@@ -68,6 +68,11 @@ Special thanks to the following projects and documentation:
 ### Audio2Face:
   - [Streaming Audio Player](https://docs.omniverse.nvidia.com/audio2face/latest/user-manual/audio2face-tool/streaming-audio-player.html)
   - [Audio2Face to UE Live Link Plugin](https://docs.omniverse.nvidia.com/audio2face/latest/user-manual/livelink-ue-plugin.html)
+
+### LangChain
+  - [LangChain Integrates NVIDIA NIM for GPU-optimized LLM Inference in RAG](https://blog.langchain.dev/nvidia-nim/)
+  - [NVIDIA NIMs](https://python.langchain.com/v0.2/docs/integrations/chat/nvidia_ai_endpoints/)
+  - [NVIDIA Riva: ASR and TTS](https://python.langchain.com/v0.1/docs/integrations/tools/nvidia_riva/)
   
 ### Projects
 - [Omniverse-Virtual-Assisstant](https://github.com/zslrmhb/Omniverse-Virtual-Assisstant)
