@@ -22,11 +22,11 @@ LLMAvatarTalk 是一個創新的專案，結合了最先進的 AI 技術，創�
 - NVIDIA NIMs API KEY
     - 可以在 [NVIDIA NIMs](https://build.nvidia.com/explore/discover?signin=false&signin_corporate=false) 申請免費的 1000 credits 
 - Nvidia Riva Server
-   - [教學文件](../docs/RIVA/RIVA_Tutorial.md)
+   - [教學文件](../RIVA/RIVA_Tutorial.md)
 - Audio2Face
-   - [教學文件](../docs/Audio2Face/Audio2Face_Tutorial.md)
+   - [教學文件](../Audio2Face/Audio2Face_Tutorial.md)
 - Unreal Engine & Metahuman
-   - [教學文件](../docs/UE/UE_Tutorial.md)
+   - [教學文件](../UE/UE_Tutorial.md)
 
 ## 安裝
 測試通過環境：windows 11 & python=3.9
