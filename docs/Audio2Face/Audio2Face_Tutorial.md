@@ -4,7 +4,7 @@
 
 **Audio2Face** is an application within the Omniverse ecosystem that simplifies the process of animating a 3D character’s face by using just an audio track. This technology uses deep learning to automatically generate expressive facial animations that are synchronized with the voice, making it a valuable tool for creators in animation and game development.
 
-## Installation
+## Step-by-Step Guide
 1. Download [Omniverse](https://www.nvidia.com/zh-tw/omniverse/download/) from the official website and install it.
 2. Click on `EXCHANGE`, search for Audio2Face.
 ![Omniverse Example](../../images/audio2face/Omniverse.png)

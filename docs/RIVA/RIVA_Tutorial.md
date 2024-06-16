@@ -5,8 +5,7 @@ NVIDIA RIVA is a GPU-accelerated SDK for building speech AI applications that re
 **Recommended setup on different computer architectures.  
 My environment is WSL Ubuntu 20.04.6 LTS**
 
-## Installation
-
+## Step-by-Step Guide
 1. Download the [NGC CLI](https://org.ngc.nvidia.com/setup/installers/cli), selecting the version suitable for your environment.
     1. Alternatively, you can download, unzip, and install it from the command line:
         
