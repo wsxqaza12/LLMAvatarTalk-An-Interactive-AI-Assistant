@@ -23,11 +23,11 @@ LLMAvatarTalk 是一個創新的專案，結合了最先進的 AI 技術，創�
 - NVIDIA NIMs API KEY
     - 可以在 [NVIDIA NIMs](https://build.nvidia.com/explore/discover?signin=false&signin_corporate=false) 申請免費的 1000 credits 
 - Nvidia Riva Server
-   - [教學文件](../RIVA/RIVA_Tutorial.md)
+   - [Riva 教學](../RIVA/RIVA_Tutorial.md)
 - Audio2Face
-   - [教學文件](../Audio2Face/Audio2Face_Tutorial.md)
+   - [Audio2Face 教學](../Audio2Face/Audio2Face_Tutorial.md)
 - Unreal Engine & Metahuman
-   - [教學文件](../UE/UE_Tutorial.md)
+   - [Unreal Engine & Metahuman 教學](../UE/UE_Tutorial.md)
 
 ## 安裝
 測試通過環境：windows 11 & python=3.9
@@ -69,6 +69,11 @@ pip install -r requirements.txt
 ### Audio2Face:
   - [Streaming Audio Player](https://docs.omniverse.nvidia.com/audio2face/latest/user-manual/audio2face-tool/streaming-audio-player.html)
   - [Audio2Face to UE Live Link Plugin](https://docs.omniverse.nvidia.com/audio2face/latest/user-manual/livelink-ue-plugin.html)
+  
+### LangChain
+  - [LangChain Integrates NVIDIA NIM for GPU-optimized LLM Inference in RAG](https://blog.langchain.dev/nvidia-nim/)
+  - [NVIDIA NIMs](https://python.langchain.com/v0.2/docs/integrations/chat/nvidia_ai_endpoints/)
+  - [NVIDIA Riva: ASR and TTS](https://python.langchain.com/v0.1/docs/integrations/tools/nvidia_riva/)
   
 ### Projects
 - [Omniverse-Virtual-Assisstant](https://github.com/zslrmhb/Omniverse-Virtual-Assisstant)

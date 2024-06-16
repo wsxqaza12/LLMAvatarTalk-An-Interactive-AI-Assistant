@@ -23,11 +23,11 @@ LLMAvatarTalk is an innovative project that combines state-of-the-art AI technol
 - NVIDIA NIMs API KEY
   - Apply for free 1000 credits at [NVIDIA NIMs](https://build.nvidia.com/explore/discover?signin=false&signin_corporate=false)
 - Nvidia Riva Server
-  - [Documentation](./docs/RIVA/RIVA_Tutorial.md)
+  - [RIVA Step-by-step Tutorial](./docs/RIVA/RIVA_Tutorial.md)
 - Audio2Face
-  - [Documentation](./docs/Audio2Face/Audio2Face_Tutorial.md)
+  - [Audio2Face Step-by-step Tutorial](./docs/Audio2Face/Audio2Face_Tutorial.md)
 - Unreal Engine & Metahuman
-  - [Documentation](./docs/UE/UE_Tutorial.md)
+  - [Unreal Engine & Metahuman Step-by-step Tutorial](./docs/UE/UE_Tutorial.md)
 
 ## Installation
 Tested Environment: Windows 11 & Python 3.9
