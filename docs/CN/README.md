@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1>LLMAvatarTalk: An Interactive AI Assistant</h1>
-LLMAvatarTalk 是一個創新的專案，結合了最先進的 AI 技術，創建了一個互動式虛擬助理。通過整合自動語音識別(ASR)、大型語言模型(LLM)、文字到語音(TTS)和音頻驅動的面部動畫(Audio2Face)與虛幻引擎的 Metahuman，LLMAvatarTalk 展示了 AI 在實現無縫且引人入勝的人機互動中的潛力。 
+LLMAvatarTalk 是一個創新的專案，結合了最先進的 AI 技術，創建了一個互動式虛擬助理。通過整合自動語音識別(ASR)、大型語言模型(LLM)、文字到語音(TTS)、LangChain 和音頻驅動的面部動畫(Audio2Face)與虛幻引擎的 Metahuman，LLMAvatarTalk 展示了 AI 在實現無縫且引人入勝的人機互動中的潛力。 
 <br><br>
 
 [**English**](../../README.md)  | **中文**
@@ -14,6 +14,7 @@ LLMAvatarTalk 是一個創新的專案，結合了最先進的 AI 技術，創�
 - **文字到語音**：通過 NVIDIA RIVA TTS 將生成的文字回應轉換成自然的語音輸出。
 - **面部動畫**：使用 Audio2Face 技術根據語音輸出生成逼真的面部表情和動畫。
 - **虛幻引擎整合**：利用 Unreal Engine 的 Metahuman 與 Audio2Face 實現實時連結，增強虛擬角色的表現力。
+- **LangChain**：簡化 NVIDIA RIVA 和 NVIDIA NIM API 的集成，為 AI 開發提供無縫且高效的工作流程。
 
 ## 架構
 <img src = "https://github.com/wsxqaza12/LLMAvatarTalk-NVIDIA-RIVA-Audio2Face-Langchain/blob/main/png/architecture%20diagram.png" width ="700" />

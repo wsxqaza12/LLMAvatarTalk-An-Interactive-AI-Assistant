@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1>LLMAvatarTalk: An Interactive AI Assistant</h1>
-LLMAvatarTalk is an innovative project that combines state-of-the-art AI technologies to create an interactive virtual assistant. By integrating automatic speech recognition (ASR), large language models (LLM), text-to-speech (TTS), audio-driven facial animation (Audio2Face), and Unreal Engine's Metahuman, LLMAvatarTalk showcases the potential of AI in achieving seamless and engaging human-computer interaction.
+LLMAvatarTalk is an innovative project that combines state-of-the-art AI technologies to create an interactive virtual assistant. By integrating automatic speech recognition (ASR), large language models (LLM), LangChain, text-to-speech (TTS), audio-driven facial animation (Audio2Face), and Unreal Engine's Metahuman, LLMAvatarTalk showcases the potential of AI in achieving seamless and engaging human-computer interaction
 <br><br>
 
 **English** | [**中文**](./docs/CN/README.md) 
@@ -14,6 +14,7 @@ LLMAvatarTalk is an innovative project that combines state-of-the-art AI technol
 - **Text-to-Speech**: Transforms generated text responses into natural-sounding speech using NVIDIA RIVA TTS.
 - **Facial Animation**: Generates realistic facial expressions and animations based on audio output using Audio2Face technology.
 - **Unreal Engine Integration**: Enhances virtual character expressiveness by real-time linking Audio2Face with Unreal Engine's Metahuman.
+- **LangChain Integration**: Simplifies the integration of NVIDIA RIVA and NVIDIA NIM APIs, providing a seamless and efficient workflow for AI development.
 
 ## Architecture
 <img src="https://github.com/wsxqaza12/LLMAvatarTalk-NVIDIA-RIVA-Audio2Face-Langchain/blob/main/png/architecture%20diagram.png" width="700" />
