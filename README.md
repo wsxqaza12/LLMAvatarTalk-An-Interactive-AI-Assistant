@@ -63,6 +63,10 @@ Special thanks to the following projects and documentation:
   - [Developing the Next Generation of Extended Reality Applications with Speech AI](https://developer.nvidia.com/blog/developing-the-next-generation-of-extended-reality-applications-with-speech-ai/)
   - [NVIDIA RIVA ASR Overview](https://docs.nvidia.com/deeplearning/riva/user-guide/docs/asr/asr-overview.html)
   - [NVIDIA RIVA TTS Overview](https://docs.nvidia.com/deeplearning/riva/user-guide/docs/tts/tts-overview.html)
+
+### Audio2Face:
+  - [Streaming Audio Player](https://docs.omniverse.nvidia.com/audio2face/latest/user-manual/audio2face-tool/streaming-audio-player.html)
+  - [Audio2Face to UE Live Link Plugin](https://docs.omniverse.nvidia.com/audio2face/latest/user-manual/livelink-ue-plugin.html)
   
 ### Projects
 - [Omniverse-Virtual-Assisstant](https://github.com/zslrmhb/Omniverse-Virtual-Assisstant)
