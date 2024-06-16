@@ -1,46 +1,56 @@
 <div align="center">
 
 <h1>LLMAvatarTalk: An Interactive AI Assistant</h1>
-LLMAvatarTalk is an innovative project that combines cutting-edge AI technologies to create an interactive virtual assistant. By integrating automatic speech recognition (ASR), large language models (LLM), text-to-speech (TTS), and audio-driven facial animation (Audio2Face) with Unreal Engine's Metahuman, LLMAvatarTalk demonstrates the potential of AI in creating seamless and engaging human-computer interactions. <br><br>
+LLMAvatarTalk is an innovative project that combines state-of-the-art AI technologies to create an interactive virtual assistant. By integrating automatic speech recognition (ASR), large language models (LLM), text-to-speech (TTS), audio-driven facial animation (Audio2Face), and Unreal Engine's Metahuman, LLMAvatarTalk showcases the potential of AI in achieving seamless and engaging human-computer interaction.
+<br><br>
 
-**English** | [**中文**](./docs/cn/README.md) 
+**English** | [**中文**](./docs/CN/README.md) 
 
 </div>
 
-## 功能特色
+## Features
+- **Speech Recognition**: Converts user speech into text in real-time using NVIDIA RIVA ASR technology.
+- **Language Processing**: Leverages advanced LLM (such as llama3-70b-instruct) via NVIDIA NIM APIs for deep semantic understanding and response generation.
+- **Text-to-Speech**: Transforms generated text responses into natural-sounding speech using NVIDIA RIVA TTS.
+- **Facial Animation**: Generates realistic facial expressions and animations based on audio output using Audio2Face technology.
+- **Unreal Engine Integration**: Enhances virtual character expressiveness by real-time linking Audio2Face with Unreal Engine's Metahuman.
 
-- **語音識別**：使用 NVIDIA RIVA ASR 技術，將用戶的語音即時轉換成文字。
-- **語言處理**：利用 NVIDIA NIM APIs 使用先進的LLM(如llama3-70b-instruct)進行深入的語義理解和回應生成。
-- **文字到語音**：通過 NVIDIA RIVA TTS 將生成的文字回應轉換成自然的語音輸出。
-- **面部動畫**：使用 Audio2Face 技術根據語音輸出生成逼真的面部表情和動畫。
-- **虛幻引擎整合**：利用 Unreal Engine 的 Metahuman 與 Audio2Face 實現實時連結，增強虛擬角色的表現力。
+## Architecture
+<img src="https://github.com/wsxqaza12/LLMAvatarTalk-NVIDIA-RIVA-Audio2Face-Langchain/blob/main/png/architecture%20diagram.png" width="700" />
 
-
-## 先決條件
+## Prerequisites
 - NVIDIA NIMs API KEY
-    - 可以在 [NIM](https://build.nvidia.com/explore/discover?signin=false&signin_corporate=false) 申請免費的 1000 credits 
+  - Apply for free 1000 credits at [NVIDIA NIMs](https://build.nvidia.com/explore/discover?signin=false&signin_corporate=false)
 - Nvidia Riva Server
+  - [Documentation](../docs/RIVA/RIVA_Tutorial.md)
 - Audio2Face
-- Unreal Engine
+  - [Documentation](../docs/Audio2Face/Audio2Face_Tutorial.md)
+- Unreal Engine & Metahuman
+  - [Documentation](../docs/UE/UE_Tutorial.md)
 
-## 安裝
-   ```plaintext
-   git clone https://github.com/yourusername/LLMAvatarTalk.git
-   cd LLMAvatarTalk
-   pip install -r requirements.txt
-   ```
+## Installation
+Tested Environment: Windows 11 & Python 3.9
 
-## 運行
-1. 確定你已經架設好 Riva 伺服器並設定好 Audio2Face 與 Unreal Engine
-2. 創建 .env 並輸入 NVIDIA NIMs API KEY，你可以在 .env.sample 找到範例
+```plaintext
+git clone https://github.com/yourusername/LLMAvatarTalk.git
+cd LLMAvatarTalk
+pip install -r requirements.txt
+```
+
+## Execution
+1. Ensure you have set up the Riva server and configured Audio2Face and Unreal Engine.
+2. Create a .env file and input the NVIDIA NIMs API KEY. You can find a sample in .env.sample.
    ```plaintext
    NVIDIA_API_KEY=nvapi-
    ```
-4. 將 Riva 伺服器的 IP:PORT 填入 config.py 中的 URI，一般Riva 伺服器的 PORT 為 "50051"。
+3. Input the Riva server's IP into the URI field in config.py. The default port for Riva servers is "50051".
    ```plaintext
    URI = '192.168.1.205:50051'
    ```
-5. 執行 `python main.py`
+4. Run `python main.py`
 
-## 架構
-<img src = "https://github.com/wsxqaza12/LLMAvatarTalk-NVIDIA-RIVA-Audio2Face-Langchain/blob/main/png/architecture%20diagram.png" width ="700" />
+
+## Acknowledgments
+Special thanks to the following projects and documentation:
+
+- [Omniverse-Virtual-Assisstant](https://github.com/zslrmhb/Omniverse-Virtual-Assisstant)
