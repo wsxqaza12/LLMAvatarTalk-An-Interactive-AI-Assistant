@@ -1,6 +1,11 @@
-# LLMAvatarTalk
+<div align="center">
 
-LLMAvatarTalk 是一個結合了語音識別(ASR)、大型語言模型(LLM)、文字到語音(TTS)和音頻驅動的面部動畫(Audio2Face)技術的創新解決專案，展示了如何通過整合多種 AI 技術來實現一個交互式的虛擬助理。
+<h1>LLMAvatarTalk: An Interactive AI Assistant</h1>
+LLMAvatarTalk is an innovative project that combines cutting-edge AI technologies to create an interactive virtual assistant. By integrating automatic speech recognition (ASR), large language models (LLM), text-to-speech (TTS), and audio-driven facial animation (Audio2Face) with Unreal Engine's Metahuman, LLMAvatarTalk demonstrates the potential of AI in creating seamless and engaging human-computer interactions. <br><br>
+
+**English** | [**中文**](./docs/cn/README.md) 
+
+</div>
 
 ## 功能特色
 
