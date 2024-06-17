@@ -55,6 +55,7 @@ pip install -r requirements.txt
 - [ ] TTS 優化
 - [ ] 偵測情感和全身動畫
 - [ ] 異步處理
+- [ ] 與 LangChain 整合(RIVA 的 ASR 和 TTS)，目前使用暫時替代方案
 
 
 ## 致謝

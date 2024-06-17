@@ -55,7 +55,7 @@ pip install -r requirements.txt
 - [ ] Improve TTS
 - [ ] Implement emotion detection and full-body animation
 - [ ] Integrate asynchronous processing
-
+- [ ] Integration with LangChain (RIVA's ASR and TTS), currently using a temporary alternative
 ## Acknowledgments
 Special thanks to the following projects and documentation:
 
