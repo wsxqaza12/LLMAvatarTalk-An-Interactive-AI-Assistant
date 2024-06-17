@@ -8,6 +8,9 @@ LLMAvatarTalk is an innovative project that combines state-of-the-art AI technol
 
 </div>
 
+## Demo
+[![IMAGE ALT TEXT](./images/DemoCover.jpg)](https://www.youtube.com/watch?v=G17fgkN3e0w))
+
 ## Features
 - **Speech Recognition**: Converts user speech into text in real-time using NVIDIA RIVA ASR technology.
 - **Language Processing**: Leverages advanced LLM (such as llama3-70b-instruct) via NVIDIA NIM APIs for deep semantic understanding and response generation.
