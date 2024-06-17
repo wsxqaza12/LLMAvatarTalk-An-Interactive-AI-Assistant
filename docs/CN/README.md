@@ -17,7 +17,7 @@ LLMAvatarTalk 是一個創新的專案，結合了最先進的 AI 技術，創�
 - **LangChain**：簡化 NVIDIA RIVA 和 NVIDIA NIM API 的集成，為 AI 開發提供無縫且高效的工作流程。
 
 ## 架構
-<img src = "https://github.com/wsxqaza12/LLMAvatarTalk-NVIDIA-RIVA-Audio2Face-Langchain/blob/main/png/architecture%20diagram.png" width ="700" />
+<img src = "https://github.com/wsxqaza12/LLMAvatarTalk-An-Interactive-AI-Assistant/blob/main/images/architecture%20diagram.png" width ="700" />
 
 ## 先決條件
 - NVIDIA NIMs API KEY
