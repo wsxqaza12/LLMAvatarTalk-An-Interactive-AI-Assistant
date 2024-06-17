@@ -7,15 +7,9 @@ python-dotenv
 langchain
 langchain-nvidia-ai-endpoints
 langchain-community
-# google-cloud-speech
-# langchain-google-community
 nvidia-riva-client
 protobuf==3.17.3
-pywav
 sounddevice==0.4.2
 pyaudio
-wikipedia
-wikipedia-api
 pydub
 scipy==1.8.1
-ffmpeg

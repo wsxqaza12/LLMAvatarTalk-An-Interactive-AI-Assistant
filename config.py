@@ -1,4 +1,7 @@
-# configuration for accessing the remote local host on the Google Cloud Server
+# RIVA server
 URI = '192.168.1.205:50051'
-LANGUAGE = 'en-US'
-VOICE = "English-US.Female-1"
+voice_config = {
+    'en-US': "English-US.Female-1",
+    'zh-CN': "Mandarin-CN.Female-1"
+}
+user_language_choice = 'zh-CN'  # or 'en-US'

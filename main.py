@@ -1,9 +1,8 @@
 # Running the Demo
-
-from asr import ASRService
-from llm import LLMService
-from tts import TTSService
-from audio2face import Audio2FaceService
+from modules.asr import ASRService
+from modules.llm import LLMService
+from modules.tts import TTSService
+from modules.audio2face import Audio2FaceService
 from langchain_core.prompts import PromptTemplate
 from langchain_nvidia_ai_endpoints import ChatNVIDIA
 
