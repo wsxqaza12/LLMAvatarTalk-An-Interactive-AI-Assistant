@@ -9,7 +9,7 @@ LLMAvatarTalk is an innovative project that combines state-of-the-art AI technol
 </div>
 
 ## Demo
-[![IMAGE ALT TEXT](./images/DemoCover.jpg)](https://www.youtube.com/watch?v=G17fgkN3e0w))
+[![Watch the video](https://img.youtube.com/vi/G17fgkN3e0w/0.jpg)](https://www.youtube.com/watch?v=G17fgkN3e0w)
 
 ## Features
 - **Speech Recognition**: Converts user speech into text in real-time using NVIDIA RIVA ASR technology.
