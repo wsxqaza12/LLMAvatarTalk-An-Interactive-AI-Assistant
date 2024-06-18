@@ -10,7 +10,7 @@ LLMAvatarTalk 是一個創新的專案，結合了最先進的 AI 技術，創�
 
 ## Demo
 請點選下方縮圖至 youtube 看示範影片:
-[![Watch the video](./images/DemoCover.jpg)](https://www.youtube.com/watch?v=G17fgkN3e0w)
+[![Watch the video](../../images/DemoCover.jpg)](https://www.youtube.com/watch?v=G17fgkN3e0w)
 
 ## 功能特色
 - **語音識別**：使用 NVIDIA RIVA ASR 技術，將用戶的語音即時轉換成文字。
