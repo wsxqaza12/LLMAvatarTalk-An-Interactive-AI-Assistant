@@ -53,9 +53,9 @@ pip install -r requirements.txt
    URI = '192.168.1.205:50051'
    ```
 4. In the `config.py` file, you can also specify the language for the application interface and responses. The available options are 'en-US' for English and 'zh-CN' for Chinese. The default language is set to English.
-  ```plaintext
-  LANGUAGE = 'en-US'  # Change to 'zh-CN' for Chinese.
-  ```
+   ```plaintext
+   LANGUAGE = 'en-US'  # Change to 'zh-CN' for Chinese.
+   ```
 5. Run `python main.py`
 
 ## To-Do List
