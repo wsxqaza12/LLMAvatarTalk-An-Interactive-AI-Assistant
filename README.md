@@ -44,15 +44,19 @@ pip install -r requirements.txt
 
 ## Execution
 1. Ensure you have set up the Riva server and configured Audio2Face and Unreal Engine.
-2. Create a .env file and input the NVIDIA NIMs API KEY. You can find a sample in .env.sample.
+2. Create a `.env` file and input the NVIDIA NIMs API KEY. You can find a sample in .env.sample.
    ```plaintext
    NVIDIA_API_KEY=nvapi-
    ```
-3. Input the Riva server's IP into the URI field in config.py. The default port for Riva servers is "50051".
+3. Input the Riva server's IP into the URI field in `config.py`. The default port for Riva servers is "50051".
    ```plaintext
    URI = '192.168.1.205:50051'
    ```
-4. Run `python main.py`
+4. In the `config.py` file, you can also specify the language for the application interface and responses. The available options are 'en-US' for English and 'zh-CN' for Chinese. The default language is set to English.
+  ```plaintext
+  LANGUAGE = 'en-US'  # Change to 'zh-CN' for Chinese.
+  ```
+5. Run `python main.py`
 
 ## To-Do List
 - [ ] Optimize LLM functionality, including adding RAG and Agent
