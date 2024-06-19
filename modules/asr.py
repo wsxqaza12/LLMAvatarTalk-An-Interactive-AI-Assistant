@@ -5,9 +5,8 @@ import riva.client.audio_io
 import riva.client.proto.riva_asr_pb2 as rasr
 from typing import Iterable
 from config import URI
-from config import user_language_choice
+from config import LANGUAGE
 
-LANGUAGE = user_language_choice
 
 config = riva.client.StreamingRecognitionConfig(
     config=riva.client.RecognitionConfig(

@@ -4,4 +4,4 @@ voice_config = {
     'en-US': "English-US.Female-1",
     'zh-CN': "Mandarin-CN.Female-1"
 }
-user_language_choice = 'zh-CN'  # or 'en-US'
+LANGUAGE = 'en-US'  # or 'en-US'
