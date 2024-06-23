@@ -21,7 +21,7 @@ Click the thumbnail below to watch the demo on YouTube:
 - **LangChain Integration**: Simplifies the integration of NVIDIA RIVA and NVIDIA NIM APIs, providing a seamless and efficient workflow for AI development.
 
 ## Architecture
-<img src="https://github.com/wsxqaza12/LLMAvatarTalk-An-Interactive-AI-Assistant/blob/main/images/architecture%20diagram.png" width="700" />
+<img src="https://github.com/wsxqaza12/LLMAvatarTalk-An-Interactive-AI-Assistant/blob/main/images/architecture%20diagram.png" width="650" />
 
 ## Prerequisites
 - NVIDIA NIMs API KEY
