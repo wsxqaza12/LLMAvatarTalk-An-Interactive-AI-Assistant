@@ -48,9 +48,13 @@ pip install -r requirements.txt
    ```plaintext
    NVIDIA_API_KEY=nvapi-
    ```
-4. 將 Riva 伺服器的 IP:PORT 填入 config.py 中的 URI，一般Riva 伺服器的 PORT 為 "50051"。
+3. 將 Riva 伺服器的 IP:PORT 填入 config.py 中的 URI，一般Riva 伺服器的 PORT 為 "50051"。
    ```plaintext
    URI = '192.168.1.205:50051'
+   ```
+4. 在 config.py 檔案中，可以指定回應的語言。可用選項為'en-US'或'zh-CN'。預設語言設定為'en-US'。
+   ```plaintext
+    LANGUAGE = 'en-US' # 將中文改為 'zh-CN'
    ```
 5. 執行 `python main.py`
 
