@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ```
 
 ## 執行
-1. 確定你已經架設好 Riva 伺服器並設定好 Audio2Face 與 Unreal Engine
+1. 確定你已經架設好 Riva 伺服器並安裝好 Audio2Face 與 Unreal Engine
 2. 創建 .env 並輸入 NVIDIA NIMs API KEY，你可以在 .env.sample 找到範例
    ```plaintext
    NVIDIA_API_KEY=nvapi-
